@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Hanselman</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/app.css">
+
+  </head>
+  <body class="index">
+
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+          <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+            <ul class="menu vertical">
+              <li><div class="name"><h1 class="firstname">M</h1><h1 class="lastname">H</h1></div></li>
+              <li><a href="/who">Who?</a></li>
+              <li><a href="/what">What</a></li>
+            </ul>
+            
+          </div>
+          <div class="off-canvas-content" data-off-canvas-content>
+            <div class="index-content">
+              <div class="filter fullscreen bg-animate"></div>
+              <div class="top-bar">
+                <div class="top-bar-left">
+                  <!-- <button class="menu-icon" type="button" data-open="offCanvasLeft"></button> -->
+                </div>
+              </div>
+              
+              <section class="home">
+                <div class="row">
+                  <div class="large-12 columns text-center">
+                    <div class="name"><h1><span id="firstname" class="part firstname">M</span>&nbsp;<span id="lastname" class="part lastname">H</span></h1></div>
+                  </div>
+                </div>
+                <div class="row footer">
+                  <div class="large-12 columns text-center" id="weather">
+                  </div>
+                </div>
+                <h4 class="time" id="time"><span id="hours"></span>&nbsp;|&nbsp;<span id="minutes"></span>&nbsp;|&nbsp;<span id="seconds"></span></h4>
+                <h4 class="image-count"><span id="index"></span>/<span id="count"></span></h4>
+                <div class="track"></div>
+              </section>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
